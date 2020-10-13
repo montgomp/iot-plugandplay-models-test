@@ -1,0 +1,27 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:test:val:uniqueIds;2",
+  "@type": "Interface",
+  "displayName": "uniqueIds 2.",
+  "contents": [
+    {
+      "@id": "dtmi:test:val2:uniqueIds:myInvalidIdl;1",
+      "@type": "Telemetry",
+      "name": "temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Component",
+      "name": "myComp",
+      "schema": "dtmi:azure:DeviceManagement:DeviceInformation;1"
+    },
+    {
+      "@type": "Command",
+      "name": "reboot",
+      "request": {
+        "name": "delay",
+        "schema": "integer"
+      }
+    }
+  ]
+}
