@@ -2,7 +2,7 @@
   "@context": "dtmi:dtdl:context;2",
   "@id": "dtmi:test:val:uniqueIds;2",
   "@type": "Interface",
-  "displayName": "uniqueIds",
+  "displayName": "uniqueIds2",
   "contents": [
     {
       "@id": "dtmi:test:val2:uniqueIds:myInvalidIdl;1",
